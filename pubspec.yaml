@@ -1,0 +1,98 @@
+name: fluttertickect365
+#name: tickect365
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.3.1
+
+
+ # flutter_svg: ^2.0.10+1
+
+
+  google_sign_in: ^6.2.1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  smooth_page_indicator: ^1.2.0+3
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.0.0
+  version: ^3.0.2
+  flutter_plugin_android_lifecycle: ^2.0.0
+  oauth1: ^2.1.0
+  get: ^4.6.5
+  shimmer:
+  collection:
+  loading_animation_widget: ^1.3.0
+
+
+  image_picker: ^0.8.5+3 #image_editor
+  camera: ^0.10.5+2  # Or the latest version
+  #google_maps_flutter: ^2.1.1 # mapview
+  google_fonts: ^4.0.0 # for goole poppines
+  font_awesome_flutter: ^10.4.0  # For icons
+
+  cloud_firestore: ^5.4.5 # Firebase
+  firebase_core: ^3.7.0 # Firebase
+  firebase_database: ^11.1.5
+  firebase_messaging: ^15.1.4
+  intl: ^0.19.0  # Downgrade to match the version required by flutter_localizationsdev_dependencies:
+  # flutter_html: ^2.2.1 # HTML text
+  flutter_html: ^3.0.0-beta.2 # HTML text
+  #flutter_svg: ^0.23.0+1
+ # flutter_svg: ^2.0.16
+  flutter_svg: ^2.0.9
+
+  url_launcher: ^6.1.7 # for phone dial
+
+  geolocator: ^9.0.1 #to get the current location'
+  geocoding: ^2.0.5
+  flutter_local_notifications: ^18.0.1
+  #google_api_headers: ^1.6.0 # Try using a newer version if possible
+
+  #back_button_interceptor: ^8.0.0 # for back press
+  google_maps_flutter: ^2.0.0
+  #google_maps_webservice: ^0.0.8
+  flutter_google_places: ^0.3.0 # Add this dependency
+  lottie:
+  marquee: ^2.3.0
+  flutter_screenutil:
+  screenshot: ^3.0.0
+  share_plus: ^10.1.4
+  path_provider:
+
+
+  flutter_test:
+    sdk: flutter
+
+  fluttertoast: ^8.0.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/
+    - assets/filter/
+    - assets/seats_img/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+
+        - asset: assets/fonts/Poppins_regular.ttf
+          weight: 400
+
